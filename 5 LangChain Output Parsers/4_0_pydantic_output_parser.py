@@ -43,3 +43,5 @@ result = chain.invoke({'place':'Indian'})
 
 print(result) #name='Anjali Kumar' age=25 city='Chandigarh'
 print(result.name) #Anjali Kumar
+
+#e
