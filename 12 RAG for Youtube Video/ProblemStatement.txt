@@ -1,0 +1,39 @@
+LEts say there is a 3hr long video
+We need to summarize the video into 5 points 
+Should be able to ask questions on the video and RAG should answer it 
+Create a chrome plugin where users can install it and use it in chat interface  
+ or Streamlit UI where user can input the video link and chat on it 
+
+Improvements:
+
+1. UI based enchancements like Streamlit or Chrome Plugin
+2. Evaluation
+    a. Ragas [Faithfulness, answer_relevency, context_precision, context_recall]
+    b. LangSmith
+3. Indexing
+    a. Document Ingestion
+    b. Text Splitting
+    c. Vector Store 
+4. Retrieval
+    a. Pre-Retrieval 
+        i.  Query rewriting using LLM 
+        ii. Multi-query generation 
+        iii.Domain aware routing 
+    b. During Retrieval 
+        i.  MMR 
+        ii. Hybrid Retrieval [Semantic + Keyword search]
+        iii.Reranking [Rank using LLM]
+    c. Post-Retrieval
+        i.  Contextual Compression
+5. Augmentation
+    i.  Prompt Templating
+    ii. Answer grounding
+    iii.Context window optimization 
+6. Generation 
+    i.  Answer with Citation
+    ii. Guard railing 
+7. System Design 
+    i.  Multimodal
+    ii. Agentic
+    iii.Memory based
+
