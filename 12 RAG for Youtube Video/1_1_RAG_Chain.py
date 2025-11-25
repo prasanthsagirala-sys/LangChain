@@ -77,4 +77,6 @@ user_query = 'is there any discussion about Deepmind?'
 
 result = final_chain.invoke(user_query)
 
-print(result)
+print(result) 
+#Output:
+# Yes. The transcript discusses DeepMind, including its founding tenets: focusing on algorithmic advances like deep learning and reinforcement learning, drawing inspiration from human brain research (e.g., fMRI), leveraging commoditized compute and GPUs, and using mathematical and theoretical definitions of intelligence.
