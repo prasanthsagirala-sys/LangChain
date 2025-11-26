@@ -42,3 +42,7 @@ def get_yt_video_en_transcript(video_id):
     
     return transcript
 
+if __name__ == '__main__':
+    video_id = 'J5_-l7WIO_w&t'
+    transcript = get_yt_video_en_transcript(video_id)
+    print('Transcript:', transcript[:100],'...')
